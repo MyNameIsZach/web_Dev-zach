@@ -1,39 +1,109 @@
 div{
 	top: 0px;
 }
+#logo{
+	position: absolute;
+	left: 0px;
+}
 .drop{
 	color: white;
 	text-align: center;
+	display: block;
+	margin-top: 10px;
 }
 .blah{
 	position: absolute;
-	width: 12.5%;
+	width: 10%;
 	height: 50px;
 	display: inline-block;
 	background-color: green;
 }
 div#a{
-	left: 0%;
+	left: 20%;
 }
 div#b{
-	left: 12.5%;
-	width: 12.5%;
+	left: 30%;
 }
 div#c{
-	left: 25%;
+	left: 40%;
 }
 div#d{
-	left: 37.5%;
-}
-div#e{
 	left: 50%;
 }
+div#e{
+	left: 60%;
+}
 div#f{
-	left: 62.5%;
+	left: 70%;
 }
 div#g{
-	left: 75%;
+	left: 80%;
 }
 div#h{
-	left: 87.5%;
+	left: 90%;
+}
+div#i{
+	left: 10%;
+}
+#home{
+	position: absolute;
+	top: 125px;
+	left: 35%;
+	width: 30%;
+}
+#andrew{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#ben{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#daniel{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#jamin{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#kyle{
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	width: 90%;
+}
+#me{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#thomas{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+}
+#zaha{
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	width: 90%
+}
+#header{
+	color: black;
+	position: absolute;
+	top: 50px;
+	left: 35%;
+}
+#bio{
+	color: black;
+	position: absolute;
+	top: 450px;
+	left: 35%;
+	width: 30%;
+	font-size: 21px;
 }
