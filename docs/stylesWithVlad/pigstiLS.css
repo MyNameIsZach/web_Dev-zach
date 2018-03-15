@@ -1,0 +1,9 @@
+body {
+	background-image:url('https://serialprincess.files.wordpress.com/2012/03/tumblr_lphslnoknf1qmtorgo1_1280.jpg')
+}
+h4 {
+  font-size: 150px;
+  background: -webkit-linear-gradient(black, orange, green, gold, pink, brown, maroon);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

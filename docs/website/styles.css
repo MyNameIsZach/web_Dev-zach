@@ -1,0 +1,39 @@
+div{
+	top: 0px;
+}
+.drop{
+	color: white;
+	text-align: center;
+}
+.blah{
+	position: absolute;
+	width: 12.5%;
+	height: 50px;
+	display: inline-block;
+	background-color: green;
+}
+div#a{
+	left: 0%;
+}
+div#b{
+	left: 12.5%;
+	width: 12.5%;
+}
+div#c{
+	left: 25%;
+}
+div#d{
+	left: 37.5%;
+}
+div#e{
+	left: 50%;
+}
+div#f{
+	left: 62.5%;
+}
+div#g{
+	left: 75%;
+}
+div#h{
+	left: 87.5%;
+}

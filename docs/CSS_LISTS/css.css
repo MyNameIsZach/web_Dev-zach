@@ -1,0 +1,28 @@
+table{
+	color: blue;
+	background-color: yellow;
+}
+ul{
+	color: red;
+	list-style-type: square;
+	background-color: green;
+}
+body{
+	background: orange;
+}
+#box1 {
+	background-color: blue;
+	width: 12px;
+}
+#box2 {
+	background-color: yellow;
+	width: 12px;
+}
+#box3 {
+	background-color: gold;
+	width: 12px;
+}
+#box4 {
+	background-color: purple;
+	width: 12px;
+}
