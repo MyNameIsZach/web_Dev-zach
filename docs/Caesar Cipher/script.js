@@ -1,35 +1,41 @@
-document.getElementById("buttonEncode").addEventListener("click", encode);
+// document.getElementById("buttonEncode").addEventListener("click", encode);
 
-function encode() {
+function gARRRY() {
   var yUSewExtraSamir = inputMessage.value
-  var meh = inputKey.value
+  var meh;
   var arr = [];
-  for(i = 0; i < yUSewExtraSamir.length; i++){
-  	var nathanLEIBO = yUSewExtraSamir.charCodeAt(i)
-  	if(nathanLEIBO > 64 && nathanLEIBO < 91){
-  		nathanLEIBO = nathanLEIBO - 65;
-  		meh = parseInt(meh);
-  		nathanLEIBO = (nathanLEIBO + meh)%26;
-  		nathanLEIBO = nathanLEIBO + 65;
-  		nathanLEIBO = parseInt(nathanLEIBO);
-  		console.log(String.fromCharCode(nathanLEIBO));
-  		arr.push(String.fromCharCode(nathanLEIBO));
-  	}else if(nathanLEIBO > 96 && nathanLEIBO < 123){
-  		nathanLEIBO = nathanLEIBO - 97;
-  		meh = parseInt(meh);
-  		nathanLEIBO = (nathanLEIBO + meh)%26;
-  		nathanLEIBO = nathanLEIBO + 97;
-  		nathanLEIBO = parseInt(nathanLEIBO);
-  		console.log(String.fromCharCode(nathanLEIBO));
-  		arr.push(String.fromCharCode(nathanLEIBO));
-  	}else{
-  		nathanLEIBO = parseInt(nathanLEIBO);
-  		console.log(String.fromCharCode(nathanLEIBO));
-  		arr.push(String.fromCharCode(nathanLEIBO));
-  	}
-  }
-  console.log(arr);
-  console.log(arr.toString());
+	for(j = 0; j<26; j++){
+	  meh = j;
+	  console.log(meh);
+	  for(i = 0; i < yUSewExtraSamir.length; i++){
+	  	var nathanLEIBO = yUSewExtraSamir.charCodeAt(i)
+	  	if(nathanLEIBO > 64 && nathanLEIBO < 91){
+	  		nathanLEIBO = nathanLEIBO - 65;
+	  		meh = parseInt(meh);
+	  		nathanLEIBO = (nathanLEIBO + meh)%26;
+	  		nathanLEIBO = nathanLEIBO + 65;
+	  		nathanLEIBO = parseInt(nathanLEIBO);
+	  		console.log(String.fromCharCode(nathanLEIBO));
+	  		arr.push(String.fromCharCode(nathanLEIBO));
+	  	}else if(nathanLEIBO > 96 && nathanLEIBO < 123){
+	  		nathanLEIBO = nathanLEIBO - 97;
+	  		meh = parseInt(meh);
+	  		nathanLEIBO = (nathanLEIBO + meh)%26;
+	  		nathanLEIBO = nathanLEIBO + 97;
+	  		nathanLEIBO = parseInt(nathanLEIBO);
+	  		console.log(String.fromCharCode(nathanLEIBO));
+	  		arr.push(String.fromCharCode(nathanLEIBO));
+	  	}else{
+	  		nathanLEIBO = parseInt(nathanLEIBO);
+	  		console.log(String.fromCharCode(nathanLEIBO));
+	  		arr.push(String.fromCharCode(nathanLEIBO));
+	  	}
+	  }
+	  console.log(meh);
+	  document.getElementById(meh).innerHTML = arr.join("");
+	  arr = [];
+	  console.log(arr);
+	}
 }
 
 /* Getting the ASCII value from a character in a string:
