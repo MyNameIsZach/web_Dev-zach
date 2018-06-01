@@ -1,0 +1,36 @@
+#yourSelect{
+	margin-left: none;
+}
+#mySelect{
+	margin-right: none;
+}
+select {
+	height: 80vh;
+	width: 49.8%;
+	background-color: white;
+}
+option:disabled {
+	color: black;
+}
+
+option{
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	height: 20px;
+}
+option:hover {
+	background-color: lightblue;
+}
+option:checked {
+	color: #00000000;
+	/*background-color: purple;*/
+}
+body{
+	background-color: black;
+/*	color: black;
+*/}
+#davisSaysHi{
+	height: 5vh;
+}
